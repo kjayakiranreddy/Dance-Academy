@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Dance Academy</title>
+    <link rel="icon" href="Asserts/iconJS.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="CSS/dancestyle.css">
+      <!-- Fonts awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body class="register">
+    <nav>
+        <div class="logo">
+            <img src="Asserts/TheNine_5Year_WebBannerLogo_2.png" alt="">
+        </div>
+        <a href="javascript:void(0);" class="icon1" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ul id="myLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="fee.html">Fee</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
+    <section class="regSection1"><img src="Asserts/regEDIT.jpg" alt=""></section>
+    <form>
+        <fieldset>
+            <legend>INQUIRE NOW</legend>
+            <br>
+            <label for="parent-name">Parent's Name*</label><br>
+            <label for="first-name"> First Name</label>
+            <input type="text" required>
+            <label for="last-name"> Last Name</label>
+            <input type="text" required>
+            <br>
+            <br>
+            <label for="child-name">Child's Name*</label><br>
+            <label for="first-name"> First Name</label>
+            <input type="text" required>
+            <label for="last-name"> Last Name</label>
+            <input type="text" required>
+            <br>
+            <br>
+            <label for="child age">Child's Age*</label><br>
+            <input type="text" required><br><br>
+            <label for="child gender">Child's Gender*</label><br>
+            <input type="checkbox" name="female" required>Female<br>
+            <input type="checkbox" name="male" required>Male<br><br>
+            <label for="program">Desired Program*</label><br>
+            <input type="checkbox" name="recr" required>Recreational<br>
+            <input type="checkbox" name="part" required>Part-time Competitive<br>
+            <input type="checkbox" name="full" required>Full-time Competitive<br><br>
+            <label>How did you hear about this?*</label><br>
+            <input type="text" placeholder="Friend, Social Media, Google, etc." required><br><br>
+            <label>Has your child ever danced at another dance school. If so for how many years?*</label><br>
+            <input type="text" required><br><br>
+            <label for="phone">Phone *</label><br>
+            <label>
+                <input type="text" maxlength="3" placeholder="(###)">&nbsp;&nbsp;&nbsp;
+                <input type="text" maxlength="3" placeholder="###">&nbsp;&nbsp;&nbsp;
+                <input type="text" maxlength="4" placeholder="####">&nbsp;&nbsp;&nbsp;
+            </label><br><br>
+            <label for="email">Email Address *</label><br>
+            <input type="email" placeholder="Write your e-mail here" required><br><br>
+            <label for="message">Message *</label><br>
+            <textarea name="text-area" cols="60" rows="4"></textarea>
+            <input type="submit" value="REGISTER">
+        </fieldset>
+
+    </form>
+    <footer>
+        <div>
+            <a href="https://www.youtube.com/"><img src="Asserts/logo-youtube.png" alt="" class="footerimg"></a>
+            <a href="https://twitter.com/"> <img src="Asserts/logo-twitter.png" alt="" class="footerimg"></a>
+            <a href="https://www.instagram.com/"> <img src="Asserts/logo-instagram.png" alt="" class="footerimg"></a>
+            <a href="https://www.facebook.com/"> <img src="Asserts/logo-facebook.png" alt="" class="footerimg"></a></div>
+        <div>
+            <h4>ISI, 2100 Boulevard de Maisonneuve East, Montréal, QC H2K 4S1</h4>
+        </div>
+        <div>
+            <h4>&#9400; Copyright 2019. JS Dance Academy. All rights reserved</h4>
+        </div>
+        <div>
+            <h4>Site customized and created by Jay & Sindhura</h4>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

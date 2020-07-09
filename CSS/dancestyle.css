@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One|Jua|Text+Me+One&display=swap');
+
+body {
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.index {
+    background-image: url(../Asserts/bg.jpg);
+}
+
+.gallery {
+    background-image: url(../Asserts/dancePic1.jpg);
+    /*   background-color: orangered;*/
+}
+
+.fee {
+    background-image: url(../Asserts/bg3.jpg);
+    /* background-color: chocolate;*/
+}
+
+.register {
+    background-image: url(../Asserts/bg.jpg);
+    width:
+        /* background-color: blueviolet;*/
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li a:active {
+    color: aqua;
+    background-color: white;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.icon1 {
+    display: none;
+}
+
+nav div img {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* font-family: 'Anton', sans-serif;*/
+    display: flex;
+    text-shadow: 0px 0px 20px #ffffff;
+    flex-direction: row;
+
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+    padding-right: 50px;
+}
+
+.indexSec1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.indexSec1 > img {
+    justify-content: center;
+
+    height: 700px;
+}
+
+.indexart1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.indexart1 > h2 {
+    display: flex;
+    justify-content: center;
+    color: #e84d61;
+    font-family: 'Jua', sans-serif;
+}
+
+.indexart1 > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Text Me One', sans-serif;
+}
+
+.indexart1 > p {
+    display: flex;
+    justify-content: center;
+    padding: 0px 190px;
+}
+
+/*Register page style*/
+form {
+
+    /*    background-image: url(../Asserts/dancePic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin: 0 10%;
+    border-radius: 6px;
+    padding: 5px;
+    width: 80%;
+    top: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+input {
+    text-align: end;
+}
+
+.regSection1 > img {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 550px;
+}
+
+/*Fee page style*/
+table,
+td,
+th {
+    /* thick black border around the whole table */
+    text-align: left;
+    padding: 8px;
+}
+
+table > caption > b {
+    font-size: x-large;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    flex-direction: column;
+    border-radius: 6px;
+
+}
+
+th {
+    text-align: center;
+    color: blue;
+}
+
+tr:nth-child(1) {
+    background-color: coral;
+}
+
+tr:nth-child(2) {
+    background-color: lightpink;
+}
+
+tr:nth-child(3) {
+    background-color: orange;
+}
+
+tr:nth-child(4) {
+    background-color: green;
+}
+
+tr:nth-child(5) {
+    background-color: gray;
+}
+
+tr:nth-child(6) {
+    background-color: crimson;
+}
+
+tr:nth-child(7) {
+    background-color: lightgreen;
+}
+
+thead th {
+    background-color: dimgrey;
+    color: black;
+}
+
+tbody th {
+    background-color: cadetblue;
+    color: black;
+}
+
+/* Gallery Page Style */
+/*.galleryDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}*/
+.vid {
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+div > iframe {
+    margin: 5px;
+    width: 495px;
+    height: 315px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images > div > img {
+    margin: 5px;
+}
+
+.images > div > div > img {
+    margin: 5px;
+}
+
+.imgdiv1 {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.imgdiv2 {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.imginnerdiv1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.imginnerdiv2 {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.image1 {
+    width: 495px;
+    height: 267px;
+}
+
+/*.image1:hover{
+    filter: brightness(200%);
+}*/
+
+.image2 {
+    width: 495px;
+    height: 267px;
+}
+
+/*.image2:hover{
+    filter: blur(2px);
+    opacity: 1;
+}*/
+.image3 {
+    width: 172px;
+    height: 128px;
+}
+
+/*.image3:hover{
+    filter: saturate(20%);
+}*/
+.image4 {
+    width: 172px;
+    height: 129px;
+}
+
+/*.image4:hover{
+    filter: contrast(200%);
+}*/
+.image5 {
+    width: 360px;
+    height: 267px;
+}
+
+.images > div > img:hover {
+    filter: grayscale(50%);
+    filter: saturate(3);
+}
+
+.images > div > div > img:hover {
+    filter: grayscale(50%);
+    filter: saturate(3);
+}
+
+.image6 {
+    width: 214px;
+    height: 267px;
+}
+
+footer {
+    background-color: black;
+    height: 210px;
+    padding: 5px;
+}
+
+footer > div {
+    font-family: 'Bubbler One', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer > div > a > img {
+    height: 45px;
+    width: 45px;
+    padding: 0px 20px;
+}
+
+@media only screen and (min-width:968px) {}
+
+@media only screen and (min-width:577px) and (max-width:967px) {}
+
+@media only screen and (max-width:576px) {
+    #myLinks {
+        display: none;
+        position: absolute;
+        right: 50px;
+    }
+
+    .icon1 {
+        color: black;
+        background-color: white;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .indexart1 > h1 {
+        font-size: larger;
+    }
+
+    .indexart1 > p {
+        padding: 0px 20px;
+        font-size: smaller;
+    }
+
+    .vid {
+        display: block;
+        padding: 0;
+    }
+
+
+    .indexSec1 > img {
+
+        height: 400px;
+    }
+
+    .regSection1 > img {
+        width: 100%;
+        margin: 0;
+    }
+
+    form {
+        font-size: x-small;
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+
+    fieldset {
+        display: flex;
+    }
+
+    table,
+    td,
+    th {
+        padding: 1px;
+        font-size: x-small;
+    }
+
+    .container {
+        margin: 2px;
+    }
+    .imgdiv1{
+        display: block;
+    }
+.imginnerdiv2{
+       display: block; 
+    }
+
+    .imginnerdiv1
+    {
+        display: none;
+    } 
+    div > iframe {
+        width: 100%;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    footer > div {
+        font-size: small;
+    }
+}
